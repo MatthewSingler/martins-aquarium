@@ -8,53 +8,92 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <section class="site_name">Martin's Aquarium</section>
+    <header class="site_name">
+        <h1>Martin's Aquarium></h1>
         <nav><div class="nav_bar">
             <a class="active" href="">Home</a>
             <a href="">Fish</a>
             <a href="">Care</a>
         </div></nav>
     </header>
-    <Main>
-        <section class="fish">
-            <h2>Fish Name</h2>
-            <div class="fish_img"><img src="images/download.jpeg" alt="A cartoon fish blowing bubbles"></div>
-                <ul class="properties">
-                    <li>Species</li>
-                    <li>Size</li>
-                    <li>Diet</li>
-                    <li>Harvest Location</li>
-                    <li>Fish Nickname</li>
-                </ul>
-                <h2>Orange Nemo</h2>
-            <div class="fish_img"><img src="images/images (1).jpeg" alt="An orange fish"></div>
-                <ul class="properties">
-                    <li>Species</li>
-                    <li>Size</li>
-                    <li>Diet</li>
-                    <li>Harvest Location</li>
-                    <li>Fish Nickname</li>
-                </ul>
-                <h2>Yellow Fish</h2>
-                <div class="fish_img"><img src="images/images.jpeg" alt="Another colorful fish"></div>
-                <ul class="properties">
-                    <li>Species</li>
-                    <li>Size</li>
-                    <li>Diet</li>
-                    <li>Harvest Location</li>
-                    <li>Fish Nickname</li>
-                </ul>
+    <Main class="container">
+        <article class="flex_container">
+            <h2 class="header_fish_container"Fish></h2>
+            <section class="fish">
+                <h2>Orange Fish</h2>
+                <div class="fish_img"><img src="images/download.jpeg" alt="A cartoon fish blowing bubbles"></div>
+                <div class="properties">
+                    <div class="Species">Orange Fish</div>
+                    <div class="Size">Large</div>
+                    <div class="Diet">Small fish for dinner</div>
+                    <div class="Harvest_Location">Italy</div>
+                    <div class="Fish_Nickname">Bobby</div>
+                </div>
+            </section>
+            <section class="fish">
+                <h2>Blue Fish</h2>
+                <div class="fish_img"><img src="images/images.jpeg" alt="An orange fish"></div>
+                <div class="properties">
+                    <div class="Species">Bluesis Brotheris</div>
+                    <div class="Size">Biggest</div>
+                    <div class="Diet">Fried Chicken Dinners</div>
+                    <div class="Harvest_Location">Lake Michigan</div>
+                    <div class="Fish_Nickname">Elwood</div>
+                </div>
+            </section>
+            <section class="fish">
+                <h2>Two Fish</h2>
+                <div class="fish_img"><img src="images/images (1).jpeg" alt="Some more fish"></div>
+                <div class="properties">
+                    <div class="Species">King</div>
+                    <div class="Size">Smallest</div>
+                    <div class="Diet">Vegetation</div>
+                    <div class="Harvest_Location">Bermuda</div>
+                    <div class="Fish_Nickname">Esmerelda</div>
+                </div>
+            </section>
+
+
+            <h2 class="quotes_header">Martin's Quotes</h2>
+            <section class="quotes">
+                <div class="quote">Fish are more free than all of us.</div>
+                <div class="quote">I enjoy the beauty that they provide.</div>
+                <div class="quote">Fish outnumber humans.</div>
+            </section>
             
-        </section>
-        <article>
+            <h2 class="locations_header">Harvest Locations</h2>
+            <section class="locations">
+                <div class="local_area">
+                    <div>
+                        <img src="images/download (1).jpeg" alt="Italy">
+                    </div>
+                    <div class="location_name">Positano</div>
+                    <div class="fish_harvested">Orange Fish</div>
+                </div>
+                <div class="local_area">
+                    <div>
+                        <img src="images/Bermuda.jpeg" alt="Bermuda">
+                    </div>
+                    <div class="location_name">Bermuda</div>
+                    <div class="fish_harvested">King Fish</div>
+                </div>
+                <div class="local_area">
+                    <div>
+                        <img src="images/MI.jpeg" alt="Lake MI">
+                    </div>
+                    <div class="location_name">Lake Michigan</div>
+                    <div class="fish_harvested">Bluesis Brotheris Fish</div>
+                </div>
+            </section>
+        </article>
+        <article class="extra_info">
             <aside class="aside_info">
-                <h2>Care Tips and Tricks</h2>
-                <ul class="care_tabs">
-                    <li>Cleaning</li>
-                    <li>Salinity</li>
-                    <li>Temperature</li>
-                </ul>
+                <h2 class="aside_title">Care Tips and Tricks</h2>
+                <div class="care_tabs">
+                    <div class="Cleaning">Cleaning Tips</div>
+                    <div class="Salty">Salinity</div>
+                    <div class="Temps">Temperature Adjustment</div>
+                </div>
             </aside>
         </article>
         

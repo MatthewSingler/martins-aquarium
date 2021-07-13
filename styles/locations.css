@@ -1,0 +1,11 @@
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.local_area{
+    flex-basis: 20%;
+    margin: .5rem 1rem;
+}

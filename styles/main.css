@@ -1,9 +1,39 @@
+@import url("./Fish.css");
+@import url("./locations.css");
+
 body{
     background-color: cadetblue;
     margin: 0%;
 
 }
-header{
+img{
+    height: 7rem;
+}
+
+.site_name{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.flex_container{
+    flex: 3;
+}
+
+.extra_info{
+    flex: 1;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+/*header{
     border: navajowhite 5px solid;
 }
 main{
@@ -35,12 +65,8 @@ main{
 .care_tabs{
     color: coral;
 }
-.nav_bar{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
+
 .fish_img{
     height: auto;
     width: 100%;
-}
+}*/
